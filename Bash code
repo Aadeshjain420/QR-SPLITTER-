@@ -1,0 +1,5 @@
+npm create vite@latest qr-app -- --template react
+cd qr-app
+npm install
+npm install @capacitor/core @capacitor/cli @capacitor/android @capacitor/filesystem @capacitor/share
+npx cap init "QR Splitter" com.qrsplitter.app
